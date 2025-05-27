@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+This app was created by Richard Liu
+
+Person's email: richardadesigner@gmail.com
+
+School email: Richard.Liu@hsartsstudents.org
+-->
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="license" href="LICENSE.md" />
+    <link rel="hidden-file" href="richard.txt" />
+    <link rel="hidden-file" href="https://glitch.com/edit/#!/sigmacalculator" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://purepng.com/public/uploads/large/purepng.com-calculator-iconsymbolsiconsapple-iosiosios-8-iconsios-8-721522596017qe0p7.png"
+    />
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div style="position: fixed; bottom: 0; left: 1">
+      <button
+        style="
+          background-color: white;
+          color: black;
+          border-width: 0px;
+          border-radius: 0px;
+          width: 100vw;
+          height: 30px;
+          font-size: 20px;
+        "
+        onclick="window.open('https://sigmacalculator.glitch.me/?search')"
+      >
+        Get More Calculator
+      </button>
+    </div>
+    <br />
+    <div class="whole">
+      <input id="top_box" class="display" readonly />
+      <br /><br />
+      <button id="ac" class="ac">AC / Reset</button>
+      <br />
+      <button id="backspace">⌫ Backspace</button>
+      <br /><br />
+      <button id="1" class="calculator">1</button>
+      <button id="2" class="calculator">2</button>
+      <button id="3" class="calculator">3</button>
+      <button id="+" class="calculator">+</button>
+      <br />
+      <button id="4" class="calculator">4</button>
+      <button id="5" class="calculator">5</button>
+      <button id="6" class="calculator">6</button>
+      <button id="-" class="calculator">-</button>
+      <br />
+      <button id="7" class="calculator">7</button>
+      <button id="8" class="calculator">8</button>
+      <button id="9" class="calculator">9</button>
+      <button id="*" class="calculator">×</button>
+      <br />
+      <button id="." class="calculator">.</button>
+      <button id="0" class="calculator">0</button>
+      <button id="equal" class="calculator">=</button>
+      <button id="/" class="calculator">÷</button>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>

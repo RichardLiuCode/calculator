@@ -1,0 +1,31 @@
+body {
+  background-color: light-gray;
+  text-align: center;
+}
+input {
+  width: 250px;
+}
+button {
+  width: 100px;
+}
+input,
+button {
+  height: 30px;
+  border-radius: 0px;
+  border-width: 2px;
+  font-size: 20px;
+}
+.search {
+  padding: 5px;
+  background-color: skyblue;
+  height: 150px;
+}
+.searchList {
+  padding: 5px;
+  background-color: skyblue;
+  
+}
+h1 {
+  color: black;
+  font-family: ARIAL;
+}

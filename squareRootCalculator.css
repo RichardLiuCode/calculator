@@ -1,0 +1,37 @@
+body{
+  text-align:center;
+  background-color:skyblue;
+}
+h1{
+  font-family:Arial;
+  color:white;
+}
+hr{
+  height:2px;
+  background-color:white;
+}
+#input,#output{
+  border-radius:10px;
+  width:200px;
+  border-width:2px;
+  border-color:blue
+  
+}
+#input{
+  height:20px;
+  margin-bottom:6px;
+}
+#output{
+  height:50px;
+  resize:none;
+}
+#enter{
+  width:70px;
+  height:20px;
+  margin-bottom:6px;
+  color:blue;
+  background-color:white;
+  border-radius:3px;
+  border-width:1px;
+  border-color:lightgray;
+}

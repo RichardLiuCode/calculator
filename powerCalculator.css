@@ -1,0 +1,44 @@
+body{
+  background-color:rgb(240, 240, 236);
+  text-align:center;
+}
+#base,#power{
+  margin-bottom:6px;
+  width:200px;
+  height:20px;
+  border-width:2px;
+  border-radius:0;
+  border-color:lightgray;
+  color:black;
+  background-color:white;
+}
+#enter{
+  margin-bottom:6px;
+  color:black;
+  width:70px;
+  height:20px;
+  background-color:lightgray;
+  border-radius:0px;
+  border-width:2px;
+  border-color:gray;
+}
+#output{
+  resize:none;
+  width:200px;
+  height:40px;
+  background-color:white;
+  color:black;
+  border-radius:0px;
+  border-width:2px;
+  border-color:lightgray;
+  font-size:20px;
+}
+hr{
+  height:1px;
+  background-color:gray;
+  
+}
+h1{
+  font-family:Arial;
+  color:gray;
+}

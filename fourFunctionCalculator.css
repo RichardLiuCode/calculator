@@ -1,0 +1,41 @@
+body {
+  background-color: blue;
+  text-align: center;
+}
+textarea {
+  resize: none;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(34, 239, 11);
+}
+#number1,
+#number2 {
+  margin-bottom: 10px;
+  width: 200px;
+  height: 20px;
+  background-color: rgb(34, 239, 11);
+}
+#go {
+  margin-bottom: 10px;
+
+  background-color: rgb(239, 16, 6);
+}
+#dropdown {
+  width: 200px;
+  height: 20px;
+  background-color: rgb(34, 239, 11);
+  margin-bottom: 10px;
+}
+#dropdown,
+#output,
+#go,
+#number1,
+#number2 {
+  border-color: white;
+  border-width: 1px;
+  border-radius: 2px;
+}
+#title {
+  font-family: Arial;
+  color: white;
+}

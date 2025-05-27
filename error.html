@@ -1,0 +1,42 @@
+<!DCOTYPE html>
+<html>
+  <head>
+    <style>
+      h1,
+      h2,
+      p {
+        font-family: arial;
+      }
+      body {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Error</h1>
+    <hr />
+    <h2>Calculator Cannot find</h2>
+    <p id="errorDisplay"></p>
+    <br />
+    <p>Try to find another calculator</p>
+    <input id="search" placeholder="Search Calculator" />
+    <button
+      onclick="window.location.href='https://sigmacalculator.glitch.me?type='+document.getElementById('search').value"
+    >
+      search
+    </button>
+    <script>
+      window.onload = function () {
+        if (window.location.href.includes("?error=")) {
+          var urlinputequation = new URLSearchParams(window.location.search)
+            .get("error")
+            .toLowerCase();
+          document.getElementById("errorDisplay").innerHTML =
+            "The Calculator “" + urlinputequation + "” cannot find";
+        } else {
+          window.location.href = "https://sigmacalculator.glitch.me/index.html";
+        }
+      };
+    </script>
+  </body>
+</html>
