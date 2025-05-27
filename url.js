@@ -14,31 +14,31 @@ window.onload = function () {
   // The code below is to navigate to the target URL
   console.log(window.location.href);
   if (window.location.href.includes("search")) {
-    window.location.href = "https://sigmacalculator.glitch.me/search.html";
+    window.location.href = "https://richardliucode.github.io/calculator/search.html";
   } else if (!window.location.href.includes("?type=")) {
-    window.location.href = "https://sigmacalculator.glitch.me/calculator.html";
+    window.location.href = "https://richardliucode.github.io/calculator/calculator.html";
   } else if (window.location.href.includes("?")) {
     if (urlinputequation.includes("power")) {
       window.location.href =
-        "https://sigmacalculator.glitch.me/powerCalculator.html";
+        "https://richardliucode.github.io/calculator/powerCalculator.html";
     } else if (
       urlinputequation.includes("fourfunction") ||
       urlinputequation.includes("4function")
     ) {
       window.location.href =
-        "https://sigmacalculator.glitch.me/fourFunctionCalculator.html";
+        "https://richardliucode.github.io/calculator/fourFunctionCalculator.html";
     } else if (
       urlinputequation.includes("square") ||
       urlinputequation.includes("root")
     ) {
       window.location.href =
-        "https://sigmacalculator.glitch.me/squareRootCalculator.html";
+        "https://richardliucode.github.io/calculator/squareRootCalculator.html";
     } else if (urlinputequation.includes("factorial")) {
       window.location.href =
-        "https://sigmacalculator.glitch.me/factorialCalculator.html";
+        "https://richardliucode.github.io/calculator/factorialCalculator.html";
     } else if (urlinputequation.includes("binary")) {
       window.location.href =
-        "https://sigmacalculator.glitch.me/DecimalToBinaryCalculator.html";
+        "https://richardliucode.github.io/calculator/DecimalToBinaryCalculator.html";
     } else if (
       urlinputequation.includes("normal") ||
       urlinputequation.includes("standard") ||
@@ -46,9 +46,9 @@ window.onload = function () {
       urlinputequation == "calculator"
     ) {
       window.location.href =
-        "https://sigmacalculator.glitch.me/calculator.html";
+        "https://richardliucode.github.io/calculator/calculator.html";
     } else if (urlinputequation == "") {
-      window.location.href = "https://sigmacalculator.glitch.me/search.html";
+      window.location.href = "https://richardliucode.github.io/calculator/search.html";
     } else {
       window.location.href = "error.html?error=" + urlinputequation;
     }
