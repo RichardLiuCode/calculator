@@ -20,7 +20,7 @@ window.onload = function () {
   } else if (window.location.href.includes("?")) {
     if (urlinputequation.includes("power")) {
       window.location.href =
-        "https://richardliucode.github.io/calculator/powerCalculator.html";
+        "https://richardliucode.github.io/calculator/PowerCalculator";
     } else if (
       urlinputequation.includes("fourfunction") ||
       urlinputequation.includes("4function")
