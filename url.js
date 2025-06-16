@@ -32,7 +32,7 @@ window.onload = function () {
       urlinputequation.includes("root")
     ) {
       window.location.href =
-        "https://richardliucode.github.io/calculator/squareRootCalculator.html";
+        "https://richardliucode.github.io/calculator/SquareRootCalculator";
     } else if (urlinputequation.includes("factorial")) {
       window.location.href =
         "https://richardliucode.github.io/calculator/factorialCalculator.html";
