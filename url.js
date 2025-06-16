@@ -26,7 +26,7 @@ window.onload = function () {
       urlinputequation.includes("4function")
     ) {
       window.location.href =
-        "https://richardliucode.github.io/calculator/fourFunctionCalculator.html";
+        "https://richardliucode.github.io/calculator/FourFunctionCalculator";
     } else if (
       urlinputequation.includes("square") ||
       urlinputequation.includes("root")
