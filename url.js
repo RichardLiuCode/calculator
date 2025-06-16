@@ -16,7 +16,7 @@ window.onload = function () {
   if (window.location.href.includes("search")) {
     window.location.href = "https://richardliucode.github.io/calculator/search.html";
   } else if (!window.location.href.includes("?type=")) {
-    window.location.href = "https://richardliucode.github.io/calculator/calculator.html";
+    window.location.href = "https://richardliucode.github.io/calculator/standard/calculator.html";
   } else if (window.location.href.includes("?")) {
     if (urlinputequation.includes("power")) {
       window.location.href =
@@ -46,7 +46,7 @@ window.onload = function () {
       urlinputequation == "calculator"
     ) {
       window.location.href =
-        "https://richardliucode.github.io/calculator/calculator.html";
+        "https://richardliucode.github.io/calculator/standard/calculator.html";
     } else if (urlinputequation == "") {
       window.location.href = "https://richardliucode.github.io/calculator/search.html";
     } else {
