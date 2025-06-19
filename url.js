@@ -35,7 +35,7 @@ window.onload = function () {
         "https://richardliucode.github.io/calculator/SquareRootCalculator";
     } else if (urlinputequation.includes("factorial")) {
       window.location.href =
-        "https://richardliucode.github.io/calculator/factorialCalculator.html";
+        "https://richardliucode.github.io/calculator/FactorialCalculator";
     } else if (urlinputequation.includes("binary")) {
       window.location.href =
         "https://richardliucode.github.io/calculator/DecimalToBinaryCalculator.html";
