@@ -39,7 +39,11 @@ window.onload = function () {
     } else if (urlinputequation.includes("binary")) {
       window.location.href =
         "https://richardliucode.github.io/calculator/DecimalToBinaryCalculator.html";
-    } else if (urlinputequation.includes("street")){
+    } else if (
+      urlinputequation.includes("street")||
+      urlinputequation.includes("calculator on the st")||
+      urlinputequation.includes("calculator on the s.t.")
+    ){
       window.location.href = "https://richardliucode.github.io/calculator/calculatoronthestreet"
     } else if (
       
